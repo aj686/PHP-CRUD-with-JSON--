@@ -1,0 +1,24 @@
+ echo "<pre>";
+ var_dump($users);
+ echo "</pre>";
+ exit;
+
+
+<?php endforeach; ?>  --> It's mainly so you can make start and end statements clearer when creating HTML in loops:
+
+reference -> https://stackoverflow.com/questions/4600419/endforeach-in-loops
+
+
+memories table html 
+
+var_dump($_SERVER); - DISPLAY HEADER, PATH ON SO ON 
+
+["REQUEST_METHOD"]=>
+string(3) "GET"
+
+["REQUEST_METHOD"]=>     //AFTER ENTER NEW VALUE 
+string(4) "POST"
+
+$users[$i] = array_merge($original_array, $default_array);
+If the input arrays have the same string keys, 
+then the later value for that key will overwrite the previous one.
